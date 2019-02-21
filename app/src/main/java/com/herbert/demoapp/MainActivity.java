@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 2.创建分支2
      * 3.分支1做了一些修改
      * 4.master 分支修改了一点东西
+     * 5.master 修改了，我不能保存，需要去其他分支处理东西，啦啦啦
      */
     Button bt_aidl,bt_content,bt_cp,bt_launch;
     @Override
