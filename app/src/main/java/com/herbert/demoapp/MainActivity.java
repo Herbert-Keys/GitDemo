@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    /**
+     * 这是我添加的备注
+     */
     Button bt_aidl,bt_content,bt_cp,bt_launch;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
