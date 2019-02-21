@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     /**
      * 这是我添加的备注
+     * 1.创建分支1
      */
     Button bt_aidl,bt_content,bt_cp,bt_launch;
     @Override
