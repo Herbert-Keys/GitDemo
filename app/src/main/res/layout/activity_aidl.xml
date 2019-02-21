@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.herbert.demoapp.AIDLActivity">
+    <Button
+        android:id="@+id/bt_bindservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定服务"/>
+    <Button
+        android:id="@+id/bt_getInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取服务器数据"
+        app:layout_constraintTop_toBottomOf="@id/bt_bindservice"/>
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/bt_getInfo"
+        android:text=""/>
+</android.support.constraint.ConstraintLayout>
